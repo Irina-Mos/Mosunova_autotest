@@ -19,7 +19,7 @@ def test_multiplication(a, b, expected_value):
     (5, 5, 25)
 ])
 def test_devision(a, b, expected_value):
-    a / b == expected_value, f"{a} / {b} != {expected_value}"
+    assert a / b == expected_value, f"{a} / {b} != {expected_value}"
 
 
 
