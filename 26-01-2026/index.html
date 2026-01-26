@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Title</title>
+    <style>
+        th {
+            border: 1px solid black;
+            text-align: center
+        }
+        td {
+            border: 1px solid black;
+            text-align: center
+        }
+        tr {
+            background-color: #ff0000
+        }
+    </style>
+</head>
+<body>
+    <h1>Добро пожаловать на сайт</h1>
+    <p>Упорядоченный список</p>
+        <ol style="margin: 30px; padding-left: 40px">
+            <li>Первый шаг</li>
+            <li>Второй шаг</li>
+            <li>Третий шаг</li>
+        </ol>
+    <p>Неупорядоченный список</p>
+        <ul style="list-style-type: square: list-style-position: outside">
+            <li>Первый шаг</li>
+            <li>Второй шаг</li>
+            <li>Третий шаг</li>
+        </ul>
+    <p>Список описания</p>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Язык разметки для создания веб-страниц.</dd>
+            <dt>CSS</dt>
+            <dd>Язык стилей для оформления веб-страниц.</dd>
+        </dl>
+    <p>Таблица</p>
+        <table style="border: 1px solid black; border-collapse: collapse;">
+            <caption> Моя таблица </caption>
+            <thead>
+            <tr>
+                <th>Название</th>
+                <th>Цена</th>
+                <th>Количество</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Яблоки</td>
+                <td>50 ₽</td>
+                <td>10 кг</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td>Бананы</td>
+                <td>80 ₽</td>
+                <td>5 кг</td>
+            </tr>
+            </tfoot>
+        </table>
+    <p> Пример формы регистрации</p>
+    <form>
+        <div>
+        <label>Имя пользователя</label>
+        <input type="text" id="username" name="username" required value="Ваш логин">
+        </div>
+
+        <div>
+        <label>Электронная почта</label>
+        <input type="email" id="email" name="email" required>
+        </div>
+
+        <div>
+        <label>Пароль</label>
+        <input type="password" id="password" name="password" required>
+        </div>
+
+        <div>
+        <label>Дата рождения</label>
+        <input type="date" id="date" name="date" required>
+        </div>
+
+        <div>
+        <label>Загрузите аватар</label>
+        <input type="file" id="img" name="img" required>
+        </div>
+        <textarea></textarea>
+        <select></select>
+        <button type="submit">Зарегестрироваться</button>
+
+        <button type="reset">Сброс полей</button>
+    </form>
+</body>
+</html>
