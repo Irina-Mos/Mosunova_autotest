@@ -1,0 +1,694 @@
+{
+  "id": "f471380b-225a-421e-9cf2-87fa72de6fef",
+  "version": "2.0",
+  "name": "Mosunova_PR7",
+  "url": "https://www.ozon.ru",
+  "tests": [{
+    "id": "04f6c9db-74f0-4ec7-acde-6fd88969e6b8",
+    "name": "test_1",
+    "commands": [{
+      "id": "21f19831-f1ea-4e2e-a0f3-86b0f25afac0",
+      "comment": "",
+      "command": "open",
+      "target": "/?__rr=1&abt_att=1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ed256cf-b13c-4c65-93bc-5e4b4f965653",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f1a5251-d7fe-4ff0-bc0f-cd8ed4c4131c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Билеты, отели",
+      "targets": [
+        ["linkText=Билеты, отели", "linkText"],
+        ["css=.uw_h8a:nth-child(2) > .q4b1_3_1-a", "css:finder"],
+        ["xpath=//a[contains(text(),'Билеты, отели')]", "xpath:link"],
+        ["xpath=//div[@id='layoutPage']/div/div/div/header/div[2]/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.ozon.ru/travel/?mwc_campaign=oztravel_horizontal-menu_flight')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Билеты, отели')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7627",
+      "windowTimeout": 2000
+    }, {
+      "id": "2fc20b05-e5f3-4dc7-9ffc-39a28e8951a3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7627}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3966d65a-98b2-4b89-8ea0-d8af143d6f79",
+      "comment": "",
+      "command": "click",
+      "target": "css=.travel_vf9_8:nth-child(2)",
+      "targets": [
+        ["css=.travel_vf9_8:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='layoutPage']/div/div/div/div/div[2]/div[6]/div/a[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//a[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb246ac7-11c7-4cc5-9b49-05f94c4b13ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.travel_v8f_8:nth-child(3) > .travel_vf9_8",
+      "targets": [
+        ["css=.travel_v8f_8:nth-child(3) > .travel_vf9_8", "css:finder"],
+        ["xpath=//div[@id='layoutPage']/div/div/div/div/div/div[5]/div[2]/a[3]/div", "xpath:idRelative"],
+        ["xpath=//a[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89c0c0d7-e10d-49b1-ba2a-51f998f260fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.travel_v8f_8:nth-child(4) > .travel_vf9_8",
+      "targets": [
+        ["css=.travel_v8f_8:nth-child(4) > .travel_vf9_8", "css:finder"],
+        ["xpath=//div[@id='layoutPage']/div/div/div/div[6]/div/a[4]/div", "xpath:idRelative"],
+        ["xpath=//a[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5374d53c-6e67-400d-9d3e-fd56f93f19de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.travel_v8f_8:nth-child(1) > .travel_vf9_8",
+      "targets": [
+        ["css=.travel_v8f_8:nth-child(1) > .travel_vf9_8", "css:finder"],
+        ["xpath=//div[@id='layoutPage']/div/div/div/div/div/div[6]/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e34cfe83-6738-47e0-b691-e4bcc8d84f45",
+    "name": "test_2",
+    "commands": [{
+      "id": "90bb74fc-1204-4ea2-8f7a-b97bb843815a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1d4e090-d598-48ca-911c-1d48eaaab8fd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ba115cd-5f9b-4a61-9c10-941dbc8a85fd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Одежда",
+      "targets": [
+        ["linkText=Одежда", "linkText"],
+        ["css=.uw_h8a:nth-child(4) > .q4b1_3_1-a", "css:finder"],
+        ["xpath=//a[contains(text(),'Одежда')]", "xpath:link"],
+        ["xpath=//div[@id='layoutPage']/div/div/div/header/div[2]/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/category/odezhda-obuv-i-aksessuary-7500/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Одежда')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2528",
+      "windowTimeout": 2000
+    }, {
+      "id": "8f211c73-8ec2-4999-aa06-4d6214aab53e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2528}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3462e9b7-70cc-448c-8b52-b0cb67799f84",
+      "comment": "",
+      "command": "click",
+      "target": "css=.uw_h9",
+      "targets": [
+        ["css=.uw_h9", "css:finder"],
+        ["xpath=//a[contains(text(),'Детям')]", "xpath:link"],
+        ["xpath=//div[@id='layoutPage']/div/div/div/div/div[2]/div/div/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/category/detskaya-odezhda-7580/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a33ab762-51c5-48c2-bf61-c3ab70657ec0",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.qb61_3_14-a1",
+      "targets": [
+        ["css=.qb61_3_14-a1", "css:finder"],
+        ["xpath=//div[@id='layoutPage']/div/div/div/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Детская одежда')]", "xpath:innerText"]
+      ],
+      "value": "Детская одежда"
+    }]
+  }, {
+    "id": "21619b5a-ac63-4246-b9f3-bbed8175313d",
+    "name": "test_3",
+    "commands": [{
+      "id": "bad5e9f8-310e-4e26-8b5d-734fc6af37a1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98aa675c-5347-4115-9b87-ee9067d4725a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1506bfa4-8cca-4425-8bd4-bdfde2c14826",
+      "comment": "",
+      "command": "click",
+      "target": "name=text",
+      "targets": [
+        ["name=text", "name"],
+        ["css=.mx9_29", "css:finder"],
+        ["xpath=//input[@name='text']", "xpath:attributes"],
+        ["xpath=//div[@id='stickyHeader']/div/div[3]/div/div[2]/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "817446d0-f299-4a36-9b87-bdec4ebc8f77",
+      "comment": "",
+      "command": "type",
+      "target": "name=text",
+      "targets": [
+        ["name=text", "name"],
+        ["css=.mx9_29", "css:finder"],
+        ["xpath=//input[@name='text']", "xpath:attributes"],
+        ["xpath=//div[@id='stickyHeader']/div/div[3]/div/div[2]/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "беспроводные наушники"
+    }, {
+      "id": "20a11aa7-8f83-40e5-9747-301c9447a546",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x9m_29 > .ag5_6_3-a",
+      "targets": [
+        ["css=.x9m_29 > .ag5_6_3-a", "css:finder"],
+        ["xpath=//div[@id='stickyHeader']/div/div[3]/div/div[2]/form/button/div", "xpath:idRelative"],
+        ["xpath=//form/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "65a0be4a-c2f1-4ab7-bc7f-e777530c5e6e",
+    "name": "test_4",
+    "commands": [{
+      "id": "98e057f0-0985-4438-adca-8bb030e4a453",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "407963e4-46bb-438a-bce3-b1ff5ba41ec2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "286d5d22-5b92-450b-b064-abd1fc2ac4a2",
+      "comment": "",
+      "command": "click",
+      "target": "name=text",
+      "targets": [
+        ["name=text", "name"],
+        ["css=.mx9_29", "css:finder"],
+        ["xpath=//input[@name='text']", "xpath:attributes"],
+        ["xpath=//div[@id='stickyHeader']/div/div[3]/div/div[2]/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8694e5c7-db2e-4d10-8842-952d3ae51a00",
+      "comment": "",
+      "command": "type",
+      "target": "name=text",
+      "targets": [
+        ["name=text", "name"],
+        ["css=.mx9_29", "css:finder"],
+        ["xpath=//input[@name='text']", "xpath:attributes"],
+        ["xpath=//div[@id='stickyHeader']/div/div[3]/div/div[2]/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "беспроводные наушники"
+    }, {
+      "id": "a06520c7-8551-44eb-83b8-21f8e97a4507",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search_u2:nth-child(2) .a2p5_6_3-a5",
+      "targets": [
+        ["css=.search_u2:nth-child(2) .a2p5_6_3-a5", "css:finder"],
+        ["xpath=//div[@id='stickyHeader']/div/div[3]/div/div[2]/div/div/div/div/div/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'для андроид')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "02b853d7-35e6-4365-96c2-a7b175de16e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search_u2:nth-child(4) .a2p5_6_3-a5",
+      "targets": [
+        ["css=.search_u2:nth-child(4) .a2p5_6_3-a5", "css:finder"],
+        ["xpath=//div[@id='stickyHeader']/div/div[3]/div/div[2]/div/div/div/div/div/div[4]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'самсунг')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3162ca19-af88-470a-a4ba-c4b19c20973e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x9m_29 > .ag5_6_3-a",
+      "targets": [
+        ["css=.x9m_29 > .ag5_6_3-a", "css:finder"],
+        ["xpath=//div[@id='stickyHeader']/div/div[3]/div/div[2]/form/button/div", "xpath:idRelative"],
+        ["xpath=//form/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6fd7a8a-bdbd-4a55-b11c-eb0da6d96b4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tile-root:nth-child(1) > .k8i_24 path:nth-child(1)",
+      "targets": [
+        ["css=.tile-root:nth-child(1) > .k8i_24 path:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "43567e6e-a17d-4c69-9124-d82794913503",
+    "name": "test_5",
+    "commands": [{
+      "id": "6c6ea5ca-6e2c-47d4-80de-7f2f2b7b40a2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e7795ad-82a3-4daf-a858-cd82f1873769",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d67545d7-920d-4d54-a940-473216c16658",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Электроника",
+      "targets": [
+        ["linkText=Электроника", "linkText"],
+        ["css=.uw_h8a:nth-child(5) > .q4b1_3_1-a", "css:finder"],
+        ["xpath=//a[contains(text(),'Электроника')]", "xpath:link"],
+        ["xpath=//div[@id='layoutPage']/div/div/div/header/div[2]/div/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/category/elektronika-15500/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Электроника')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c399321d-2d69-48b7-8bdb-1e38c4f0e6fc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Электроника",
+      "targets": [
+        ["linkText=Электроника", "linkText"],
+        ["css=.uw_h8a:nth-child(5) > .q4b1_3_1-a", "css:finder"],
+        ["xpath=//a[contains(text(),'Электроника')]", "xpath:link"],
+        ["xpath=//div[@id='layoutPage']/div/div/div/header/div[2]/div/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/category/elektronika-15500/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Электроника')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win579",
+      "windowTimeout": 2000
+    }, {
+      "id": "30ac49b6-e003-49e2-9eb3-a78c3e01de9b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Электроника",
+      "targets": [
+        ["linkText=Электроника", "linkText"],
+        ["css=.uw_h8a:nth-child(5) > .q4b1_3_1-a", "css:finder"],
+        ["xpath=//a[contains(text(),'Электроника')]", "xpath:link"],
+        ["xpath=//div[@id='layoutPage']/div/div/div/header/div[2]/div/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/category/elektronika-15500/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Электроника')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "42bf04b2-dbd7-4f0f-ad1b-b99ea21d1900",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win579}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9056a33d-d2c1-40d7-9d1d-496df35fbb8b",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.qb61_3_14-a1",
+      "targets": [
+        ["css=.qb61_3_14-a1", "css:finder"],
+        ["xpath=//div[@id='layoutPage']/div/div/div/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Электроника')]", "xpath:innerText"]
+      ],
+      "value": "Электроника"
+    }]
+  }, {
+    "id": "797982a6-1ae9-4ed7-8514-4dfa18e66f1e",
+    "name": "test_6",
+    "commands": [{
+      "id": "fd054488-49ff-417e-ae02-91f015bea4c5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5b86fee-a208-4c07-ab43-d7fef2a3d641",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "566e19b1-ef58-4134-bc86-a5e3adbb1081",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Товары за 1₽",
+      "targets": [
+        ["linkText=Товары за 1₽", "linkText"],
+        ["css=.uw_h8a:nth-child(7) > .q4b1_3_1-a", "css:finder"],
+        ["xpath=//a[contains(text(),'Товары за 1₽')]", "xpath:link"],
+        ["xpath=//div[@id='layoutPage']/div/div/div/header/div[2]/div/div/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.ozon.ru/highlight/ozon-bank-1332387/')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Товары за 1₽')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5605",
+      "windowTimeout": 2000
+    }, {
+      "id": "b1c3760a-df24-4fc0-b201-7eb5a5b0b02e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5605}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7dd5966-ccb5-41cd-8f9c-0f3480a359e8",
+      "comment": "",
+      "command": "click",
+      "target": "name=text",
+      "targets": [
+        ["name=text", "name"],
+        ["css=.mx9_29", "css:finder"],
+        ["xpath=//input[@name='text']", "xpath:attributes"],
+        ["xpath=//div[@id='stickyHeader']/div/div[2]/div/div[2]/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebe458c4-2aec-4886-ab46-e9eb3f3c2426",
+      "comment": "",
+      "command": "type",
+      "target": "name=text",
+      "targets": [
+        ["name=text", "name"],
+        ["css=.mx9_29", "css:finder"],
+        ["xpath=//input[@name='text']", "xpath:attributes"],
+        ["xpath=//div[@id='stickyHeader']/div/div[2]/div/div[2]/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "брюки"
+    }, {
+      "id": "072478a4-d374-4a1d-9a0b-0911669b712f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=text",
+      "targets": [
+        ["name=text", "name"],
+        ["css=.mx9_29", "css:finder"],
+        ["xpath=//input[@name='text']", "xpath:attributes"],
+        ["xpath=//div[@id='stickyHeader']/div/div[2]/div/div[2]/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "929a89ba-9e3c-445a-9f2f-548fb2c02d2c",
+    "name": "test_7",
+    "commands": [{
+      "id": "d4d4107e-cc64-46eb-ad16-9a38210f7032",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96958da6-e9af-4260-92da-05721622ab1d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c4dde9e-2318-48d1-80a0-bb7621b7c496",
+      "comment": "",
+      "command": "click",
+      "target": "css=path:nth-child(4)",
+      "targets": [
+        ["css=path:nth-child(4)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc1f6e7d-3174-4592-b4f9-706e24c74493",
+      "comment": "",
+      "command": "click",
+      "target": "name=filter",
+      "targets": [
+        ["name=filter", "name"],
+        ["css=.e35_3_12-b2", "css:finder"],
+        ["xpath=//input[@name='filter']", "xpath:attributes"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c7649e7-8d67-4492-9139-98ed4ba9f584",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//div[@data-widget=\"currencyLanguageSelector\"]",
+      "targets": [
+        ["css=.uw_af3", "css:finder"],
+        ["xpath=//div[6]/div/div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "30000"
+    }]
+  }, {
+    "id": "5d349937-62f7-48bc-b6a4-995048da98c0",
+    "name": "test_8",
+    "commands": [{
+      "id": "ace31565-c18f-40eb-8ad5-2ca80664bec5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c156df76-673e-4df7-8ef9-928e6fdae333",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Дом и сад",
+      "targets": [
+        ["linkText=Дом и сад", "linkText"],
+        ["css=.uw_h8a:nth-child(6) > .q4b1_3_1-a", "css:finder"],
+        ["xpath=//a[contains(text(),'Дом и сад')]", "xpath:link"],
+        ["xpath=//div[@id='layoutPage']/div/div/div/header/div[2]/div/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/category/dom-i-sad-14500/')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Дом и сад')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5649",
+      "windowTimeout": 2000
+    }, {
+      "id": "810fcbd4-d7ff-4d2d-ab58-089d03e58a6c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5649}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c636637c-cf64-438b-bd7f-814757e9fa58",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.qb61_3_14-a1",
+      "targets": [
+        ["css=.qb61_3_14-a1", "css:finder"],
+        ["xpath=//div[@id='layoutPage']/div/div/div/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Дом и сад')]", "xpath:innerText"]
+      ],
+      "value": "Дом и сад"
+    }]
+  }, {
+    "id": "abe0b2b5-a511-4794-a852-2e88793af8e4",
+    "name": "test_9",
+    "commands": [{
+      "id": "34b1cb04-6c8b-4a41-ae3f-0264d3a33802",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0e06b06-8e29-41d9-9ff9-b79b0a0ca81c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Товары за 1₽",
+      "targets": [
+        ["linkText=Товары за 1₽", "linkText"],
+        ["css=.uw_h8a:nth-child(7) > .q4b1_3_1-a", "css:finder"],
+        ["xpath=//a[contains(text(),'Товары за 1₽')]", "xpath:link"],
+        ["xpath=//div[@id='layoutPage']/div/div/div/header/div[2]/div/div/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.ozon.ru/highlight/ozon-bank-1332387/')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Товары за 1₽')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7974",
+      "windowTimeout": 2000
+    }, {
+      "id": "38a739b8-d2e0-41b8-81da-5ef5ffa72450",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7974}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0630fcbf-f07a-4b98-ab8f-e916db5d0200",
+      "comment": "Товары за 1₽",
+      "command": "waitForElementPresent",
+      "target": "css=.mw8_29",
+      "targets": [
+        ["css=.mw8_29", "css:finder"],
+        ["xpath=//div[@id='stickyHeader']/div/div[2]/div/div/form/div/div/span", "xpath:idRelative"],
+        ["xpath=//form/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Товары за 1₽')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }]
+  }, {
+    "id": "a8aae1a8-3e5f-408e-b49c-c8952f9bd6e7",
+    "name": "test_10",
+    "commands": [{
+      "id": "1bd163e2-8d8f-4096-9615-1a7a588cc199",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92413a49-0306-4bc6-b006-734d5afece0e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e2a24da-7e8c-465f-ba51-6c8866cb46c6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ozon Карта",
+      "targets": [
+        ["linkText=Ozon Карта", "linkText"],
+        ["css=.uw_h8a:nth-child(1) > .q4b1_3_1-a", "css:finder"],
+        ["xpath=//a[contains(text(),'Ozon Карта')]", "xpath:link"],
+        ["xpath=//div[@id='layoutPage']/div/div/div/header/div[2]/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://ozon.ru/fintech/signin')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ozon Карта')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3053",
+      "windowTimeout": 2000
+    }, {
+      "id": "64d4250c-0aef-4ea4-a10d-50956bc77125",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3053}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "963fe691-90f4-4df0-9175-44eae7e5a8cb",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.ABOUT_US > .svelte-15f1rph",
+      "targets": [
+        ["css=.ABOUT_US > .svelte-15f1rph", "css:finder"],
+        ["xpath=//div[2]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c127930f-5c7a-469c-b0af-8f53204e2d46",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Контакты",
+      "targets": [
+        ["linkText=Контакты", "linkText"],
+        ["css=.menu-column:nth-child(2) .tsBody400Small", "css:finder"],
+        ["xpath=//a[contains(text(),'Контакты')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://finance.ozon.ru/about/support')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Контакты')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9d8789fa-3d96-49af-ab78-84d055eb33a5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://market.yandex.ru/", "https://www.ozon.ru/"],
+  "plugins": []
+}
