@@ -15,10 +15,10 @@ def close_session():
 
 
 
-def test_get_book(close_session):
+def test_get_book():
     # alert = driver.switch_to.alert
     # alert.accept()
-    search = driver.find_element(By.XPATH, "//input[@class='_60b66d7d']")
+    search = driver.find_element(By.XPATH, "//input[@class='_8fba8811']")
     search.click()
     search.send_keys("Пушкин")
     search_button = driver.find_element(By.CLASS_NAME, "_43bac248")
