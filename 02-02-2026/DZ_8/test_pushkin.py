@@ -21,15 +21,13 @@ def test_get_book():
     search = driver.find_element(By.XPATH, "//input[@class='_8fba8811']")
     search.click()
     search.send_keys("Пушкин")
-    search_button = driver.find_element(By.CLASS_NAME, "_43bac248")
+    search_button = driver.find_element(By.XPATH, "//button[@class='_82b1c248']")
     search_button.click()
-    page_title = driver.find_element(By.CLASS_NAME, "c62fbeb9")
+    page_title = driver.find_element(By.XPATH, "//h1[@class='c62fbeb9']")
     text_title = page_title.text
     assert text_title.lower() == "результаты поиска «пушкин»"
-    book_list = []
-    for i in range(0, 5):
-        book = driver.find_element(By.CLASS_NAME, "d14d2f6b")
-        book_list.append(book.text)
-
-    print(book_list)
+    books = driver.find_elements(By.XPATH, "//a[@class='d14d2f6b']")
+    first_five_books = books[:5]
+    for book in first_five_books:
+        print(book.text)
     driver.quit()
