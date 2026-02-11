@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 
 @pytest.fixture()
 def driver():
-    chrome = webdriver.Chrome()
+    chrome = webdriver.Edge()
     chrome.maximize_window()
     chrome.implicitly_wait(10)
     yield chrome
