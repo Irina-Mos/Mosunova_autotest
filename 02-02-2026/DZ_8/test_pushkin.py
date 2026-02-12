@@ -1,4 +1,5 @@
 import pytest
+import allure
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
@@ -18,16 +19,17 @@ def close_session():
 def test_get_book():
     # alert = driver.switch_to.alert
     # alert.accept()
-    search = driver.find_element(By.XPATH, "//input[@class='_8fba8811']")
-    search.click()
-    search.send_keys("Пушкин")
-    search_button = driver.find_element(By.XPATH, "//button[@class='_82b1c248']")
-    search_button.click()
-    page_title = driver.find_element(By.XPATH, "//h1[@class='c62fbeb9']")
-    text_title = page_title.text
-    assert text_title.lower() == "результаты поиска «пушкин»"
-    books = driver.find_elements(By.XPATH, "//a[@class='d14d2f6b']")
-    first_five_books = books[:5]
-    for book in first_five_books:
-        print(book.text)
-    driver.quit()
+    with allure.step("Выполняю первый шаг моего теста"):
+        search = driver.find_element(By.XPATH, "//input[@class='_8fba8811']")
+        search.click()
+        search.send_keys("Пушкин")
+        search_button = driver.find_element(By.XPATH, "//button[@class='_82b1c248']")
+        search_button.click()
+        page_title = driver.find_element(By.XPATH, "//h1[@class='c62fbeb9']")
+        text_title = page_title.text
+        assert text_title.lower() == "результаты поиска «пушкин»"
+        books = driver.find_elements(By.XPATH, "//a[@class='d14d2f6b']")
+        first_five_books = books[:5]
+        for book in first_five_books:
+            print(book.text)
+        driver.quit()
