@@ -1,13 +1,16 @@
-import time
 import allure
+import pytest
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.color import Color
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
 
+@allure.id("002")
+@allure.feature("Yandex avia")
+@allure.label("Api test")
+@allure.title('Переход на страницу "Расписание транспорта"')
+@allure.description('Проверка перехода на страницу "Расписание транспорта"')
+@pytest.mark.yandex_tests
 
 def test_tab(driver):
-    with allure.step('Проверка переключения на страницу "Расписание транспорта". Открываем сайт "Яндекс Путешествия".'):
+    with allure.step('Открываем сайт "Яндекс Путешествия".'):
         driver.get("https://travel.yandex.ru/avia/")
     with allure.step('Нажимаем на вкладку "Расписание транспорта".'):
         table = driver.find_element(By.XPATH, "//a[@href = 'https://rasp.yandex.ru/']")
